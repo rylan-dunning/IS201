@@ -1,5 +1,6 @@
+/*Rylan Dunning 4/12/2022*/
 body{
-    background-color: lightskyblue;
+    background-color: rgb(173, 223, 255);
 }
 
 .unorderlist{
@@ -8,4 +9,69 @@ body{
     padding: 0;
     overflow: hidden;
     background-color: #333;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.centerText{
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size:20px;
+
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited{
+    color:blueviolet;
+}
+
+.justify{
+    text-align: center;
+}
+
+.box1{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 10px;
+    margin: 40px;
+}
+
+.box2{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 10px;
+    margin: 20px;
+    background-color: whitesmoke;
+    background: rgba(255,255,255,0.5);
+}
+
+.custombg {
+    background-color: rgb(173, 223, 255);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    image-rendering: crisp-edges;
+}
+
+.opacity{
+    opacity: 0.8;
+}
+
+.unopacity{
+    opacity : 1;
 }
