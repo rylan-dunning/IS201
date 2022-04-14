@@ -1,4 +1,4 @@
-/*Rylan Dunning 4/12/2022*/
+/*Rylan Dunning 4/13/2022*/
 body{
     background-color: rgb(173, 223, 255);
 }
@@ -68,10 +68,24 @@ a:visited{
     image-rendering: crisp-edges;
 }
 
-.opacity{
-    opacity: 0.8;
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-.unopacity{
-    opacity : 1;
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+.zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+}
+  
+.zoom:hover {
+    /* -ms-transform: scale(1.5); */
+    /* -webkit-transform: scale(1.5); */
+    transform: scale(1.5); 
 }
