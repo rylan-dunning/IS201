@@ -1,4 +1,4 @@
-/*Rylan Dunning 4/13/2022*/
+/*Rylan Dunning 4/15/2022*/
 body{
     background-color: rgb(173, 223, 255);
 }
@@ -85,7 +85,7 @@ body{
 }
   
 .zoom:hover {
-    /* -ms-transform: scale(1.5); */
-    /* -webkit-transform: scale(1.5); */
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
     transform: scale(1.5); 
 }
